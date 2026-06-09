@@ -1,0 +1,45 @@
+@media (max-width: 1199px) {
+  .insuranceCard { width: 100%; max-width: 25%; }
+  .insuranceCard-link { width: unset; }
+}
+@media (max-width: 991px) {
+  h2 { font-size: 2.25rem; }
+  .innerArticleList { margin-left: 0px; }
+  .sectionControl, footer { padding: 3rem 0px; }
+  .nav-link { text-align: center; }
+  .footerLinks { padding: 0px; }
+  footer figure { padding: 0px !important; }
+  .latestArticleRow { margin-bottom: 0px; }
+  .dropdown.advertiser-disclosure { margin-top: 10px; }
+}
+@media (max-width: 767px) {
+  .insuranceCard { width: 50%; max-width: 50%; }
+}
+@media (max-width: 580px) {
+  h2 { text-align: center; max-width: 290px; margin: 0px auto; font-size: 24px; }
+  h3, h5 { font-size: 20px; }
+  .insuranceBlockCase { margin-top: 0px; margin-bottom: 0px; }
+  .insuranceCard { min-height: 170px; margin-top: 0px; padding: 1rem 1.75rem; }
+  .insuranceCardDescription { margin-top: 8px; }
+  .insuranceBlockCase { flex-wrap: wrap; margin-bottom: 2rem; }
+  footer { padding: 1.75rem 0px; }
+  .footer-logo a { max-width: 80px; display: inline-block; }
+  .footer-logo a img { width: 100%; }
+  .footerLinks ul { width: 100%; max-width: 90px; margin-bottom: 1rem; font-size: 14px; }
+  .footerLinks .legal { max-width: 130px; }
+  .footerLinks ul li a { font-size: 12px; }
+  .footerText { margin-top: 1rem; }
+  .footerText p { font-size: 10px; text-align: center !important; }
+  .authorIntroContent p { font-size: 1rem; }
+  .dropdown a.dropdown-toggle { font-size: 12px; }
+}
+@media (max-width: 991px) {
+  footer { padding: 3rem 0px; }
+  .articleWrapperList { text-align: center; margin-bottom: 40px; }
+  footer figure { padding: 0px !important; }
+}
+@media (max-width: 767px) {
+  .container { max-width: unset; }
+  .articleWrapperList figure { display: inline-flex; }
+  .latestArticleRow, .featured-contents .articleWrapperList { margin-bottom: 0px; }
+}
